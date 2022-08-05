@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head title {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0%;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+/*navbar con flex*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link {
+  height: 20px;
+  width: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: cadetblue;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0%;
+  margin: 0%;
+}
+
+/*Imagen Fondo*/
+.background {
+  width: 100%;
+  height: 527px;
+  background-image: url(./assent/imagenes/imagen.fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title div {
+  color: aliceblue;
+  text-align: center;
+  padding: 30px;
+}
+
+.title h1 {
+  padding: 40px;
+}
+
+/*textos_fondo*/
+.title_cp {
+  color: aliceblue;
+  max-width: 1450px;
+  display: flex;
+}
+
+.title {
+  background: rgba(5, 7, 12, 0.5);
+  padding-top: 30px;
+  margin: 0%;
+}
+
+.title_bg {
+  display: flex;
+  max-width: 1450px;
+  text-align: center;
+  height: 320px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.title_bg1 {
+  width: 500px;
+}
+
+.title_bg2 {
+  width: 500px;
+}
+
+.title_bg3 {
+  width: 500px;
+}
+
+.background2 {
+  width: 100%;
+  height: 400px;
+  background-image: url(./assent/imagenes/imagen.fondo3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.actividades {
+  color: aliceblue;
+  padding: 50px;
+  background: rgba(5, 7, 12, 0.5);
+}
+
+.actividades div {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.infos {
+  display: flex;
+  max-width: 1450px;
+  text-align: center;
+  height: 270px;
+}
+
+.info1 {
+  width: 500px;
+  padding-right: 20px;
+}
+
+.info2 {
+  width: 500px;
+}
+
+.info3 {
+  width: 500px;
+  padding-left: 20px;
+}
+
+/*LOGO*/
+.perfil {
+  height: 30px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.logo h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo img {
+  height: 104px;
+  width: 126px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+.fotoportada {
+  display: flex;
+  height: auto;
+  width: auto;
+}
+
+.fotoportada1 {
+  display: flex;
+  height: 500px;
+  width: 50%;
+}
+
+.fotoportada2 {
+  display: flex;
+  height: 500px;
+  width: 50%;
+}
+
+.container_marks {
+  position: relative;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 auto;
+  background-color: #202020;
+}
+
+.container_marks img {
+  width: 170px;
+  height: 200px;
+  margin: auto;
+  padding: auto;
+}
+
+.container_marks img:hover {
+  padding: 5px 10px;
+  background: #202020;
+  background-color: white;
+  border-radius: 200px;
+}
+
+.productos_button {
+  height: 60px;
+  padding: 5px;
+  text-align: center;
+}
+
+.titulo_foto {
+  padding: 5%;
+  margin: 0%;
+  text-align: center;
+  border-bottom: 1px groove cadetblue;
+}
+
+.titulos h2 {
+  padding: 10px;
+  box-sizing: border-box;
+  max-width: 1450px;
+  margin: auto;
+  padding: 20px;
+}
+
+.titulos {
+  display: flex;
+  height: auto;
+  text-align: center;
+}
+
+.titulos p {
+  display: flex;
+  width: 300px;
+  height: 270px;
+  margin-left: 50px;
+}
+
+.titulo1 {
+  margin-left: 150px;
+  width: 400px;
+}
+
+.titulo2 {
+  width: 400px;
+}
+
+.titulo3 {
+  width: 400px;
+}
+
+footer {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #202020;
+  color: white;
+  width: 100%;
+}
+
+.bowl_footer_all {
+  margin: 0%;
+  display: fleX;
+  width: 100%;
+  max-width: 1450px;
+  margin: auto;
+  padding: 20px;
+  justify-content: left;
+}
+
+.bowl_body {
+  display: fleX;
+  justify-content: center;
+}
+
+.column1 {
+  margin-right: 100px;
+  max-width: 400px;
+}
+
+.column1 h1 {
+  font-size: 22px;
+}
+
+.column1 p {
+  font-size: 14px;
+  color: #c7c7c7;
+  margin-top: 20px;
+}
+
+.column2 {
+  max-width: 400px;
+}
+
+.column2 h1 {
+  font-size: 22px;
+}
+
+.column2 p {
+  font-size: 14;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row img {
+  width: 35px;
+  height: 35px;
+}
+
+.row label {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #c7c7c7;
+}
+
+.column3 {
+  margin-left: 200px;
+  max-width: 400px;
+}
+
+.column3 h1 {
+  font-size: 22px;
+}
+
+.row2 {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row2 img {
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.row2 label {
+  margin-left: 10px;
+  margin-top: 10px;
+  max-width: 150px;
+}
+
+/*MARCAS*/
+.background3 {
+  background-image: url(./assent/imagenes/imagen_fondo3.jpg);
+  width: 100%;
+  height: 1800px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0%;
+}
+
+.txt {
+  display: flex;
+  padding: 80px;
+  text-align: center;
+  justify-content: center;
+  background: rgba(5, 7, 12, 0.5);
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.nav1 a:hover {
+  color: cyan;
+}
+
+.nav_link {
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: cadetblue;
+}
+
+.nav1 {
+  display: flex;
+  max-width: 1450px;
+  border: 3px groove #000;
+}
+
+.background3 nav {
+  height: 80px;
+  width: 1000px;
+  padding: 10px 20px;
+  margin: 0%;
+}
+
+/*MARCAS*/
+.grid-container {
+  display: grid;
+  background-color: rgba(5, 7, 12, 0.5);
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows: 500px 500px 500px;
+  justify-content: space-between;
+}
+
+.grid-container div {
+  background-color: rgba(5, 7, 12, 0.5);
+  color: aliceblue;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.grid-container img {
+  height: 350px;
+  width: 350px;
+}
+
+/*PRODUCTOS*/
+.txt_productos {
+  display: flex;
+  padding: 80px;
+  text-align: center;
+  justify-content: center;
+  background: rgba(5, 7, 12, 0.5);
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+/*CONTACTO*/
+.form label {
+  display: block;
+}
+
+.icono__perfil img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+/**media queries SIEMPRE al final de todo mi estilo**/
+/**Siempre de mayor a menos las medidas**/
+@media only screen and (max-width: 576px) {
+  /*estilos generales*/
+  header {
+    flex-direction: column;
+  }
+  /*index*/
+  .titulos {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

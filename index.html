@@ -9,27 +9,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Gulzar&family=Ibarra+Real+Nova&family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos.css">
     <title class="title">Home - 440 Garage</title>
 </head>
 
 <body>
     <header> 
-            <!--HTML SEMANTICO-->
-    <div class="logo">
-        <a href="file:///C:/Users/Usuario/Desktop/Martin%20Mayer/musictalent/index.html">
-        <img src="./assent/imagenes/Designer Clothes, Shoes & Bags for Women SSENSE.jpg" alt="logo de la compañía"></a>
-        <h2 class="nombre-compañía">440 GARAGE</h2>
-    </div>
-    <nav class="nav">
-        <a href="./index.html" class="nav-link">INICIO</a>
-        <a href="./pages/marcas.html" class="nav-link">MARCAS</a>
-        <a href="./pages/productos.html" class="nav-link">PRODUCTOS</a>
-        <a href="./pages/actividades.html" class="nav-link">ACTIVIDADES</a>
-        <a href="./pages/contacto.html" class="nav-link">
-            <img class="nav-link" src="./assent/imagenes/perfil.png" alt="perfil">
-        </a>
-    </nav>
+        <div class="container-fluid">
+            <!--barra de navegación-->
+            <nav class="navbar navbar-expand-md navbar-light bg-light border-1 border-bottom border-primary">
+            <div class="container-fluid">
+                <a href="./index.html" class="navbar-brand">440.GARAGE</a>
+                <button type="button" class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="MenuNavegacion" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/marcas.html">marcas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/productos.html">productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/actividades.html">actividades</a></li>
+                    </ul>
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-nowrap" href="./pages/contacto.html">contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+        </div>
+
     </header>
 
 <main>
@@ -130,9 +141,9 @@
                 <div class="actividades">
                     <div><h1>ACTIVIDADES</h1></div>
                     <div class="infos">
-                        <p class="info1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima esse nam illum natus aspernatur error sapiente, fuga consequatur unde modi quam suscipit sunt nemo dolore reiciendis consequuntur tenetur magni sequi assumenda similique at ipsum laboriosam aliquam. Rerum numquam delectus veniam.</p>
-                        <p class="info2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, libero quam sit rem commodi, animi blanditiis nam sapiente tempore, velit in consequatur a voluptate ad officiis ducimus labore. Dolores mollitia quia tempora temporibus rerum, doloremque aperiam nihil quod saepe laudantium molestiae eligendi nemo qui, consequatur tempore, soluta beatae nisi perferendis.</p>
-                        <p class="info3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae fugiat, optio illo excepturi voluptas eaque saepe ea quisquam pariatur consequuntur voluptate fuga mollitia tempora sequi necessitatibus debitis voluptatibus ipsa explicabo natus id laudantium tenetur nesciunt! Culpa, accusantium repellat dignissimos corrupti ducimus recusandae repudiandae nulla, consequatur voluptate quod perspiciatis ipsum similique. Quis eius laborum perferendis eum sit quos, odio animi voluptatibus consequuntur, veniam laboriosam quae saepe excepturi nemo.</p>
+                        <p class="info1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima esse nam illum natus aspernatur error sapiente, fuga consequatur unde modi quam</p>
+                        <p class="info2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, libero quam sit rem commodi, animi blanditiis nam sapiente </p>
+                        <p class="info3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae fugiat, optio illo excepturi voluptas eaque saepe ea quisquam pariatur consequuntur voluptate fuga mollitia tempora sequi necessitatibus debitis voluptatibus </p>
                     </div>
         
                 </div>
