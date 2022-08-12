@@ -368,7 +368,8 @@ footer {
   background-size: cover;
   margin: 0%;
 }
-.background3 h1 {
+
+.txt {
   display: flex;
   padding: 80px;
   text-align: center;
@@ -376,9 +377,6 @@ footer {
   background: rgba(5, 7, 12, 0.5);
   font-family: sans-serif;
   font-size: 30px;
-}
-.background3 h1 .breadcrumb-item {
-  color: aliceblue;
 }
 
 .nav1 a:hover {
@@ -456,7 +454,6 @@ footer {
   padding: 10px;
 }
 
-/**/
 /**media queries SIEMPRE al final de todo mi estilo**/
 /**Siempre de mayor a menos las medidas**/
 @media only screen and (max-width: 576px) {
@@ -468,6 +465,4 @@ footer {
   .titulos {
     flex-direction: column;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
