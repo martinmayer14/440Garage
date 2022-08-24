@@ -53,7 +53,9 @@ body{
     padding: 30px;
 }
 .title h1{
-    padding: 20px;
+    padding: 15PX;
+    font-size: 45PX;
+    font-family: 'Cormorant SC', serif;
 }
 
 /*textos_fondo*/
@@ -73,17 +75,13 @@ body{
     max-width: 1450px;
     text-align: center;
     height: 320px;
-    margin-left: 30px;
-    font-size: 20px;
-}
-.title_bg1{
-    width: 500px;
-}
-.title_bg2{
-    width: 500px;
+    margin-left: 220px;
+    font-size: 30px;
+    padding-left: 20px;
 }
 .title_bg3{
-    width: 500px;
+    width: 1000px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -224,12 +222,18 @@ nav a{
     border-bottom: 1px groove cadetblue;
 }
 
+.titulo_foto span{
+    font-size: 20px;
+}
+
 .titulos h2{
+    font-family: 'Roboto', sans-serif;
     padding: 10px;
     box-sizing: border-box;
     max-width: 1450px;
     margin: auto;
     padding: 20px;
+    font-size: 25px;
 }
 
 .titulos{
@@ -238,11 +242,12 @@ nav a{
     text-align: center;
 }
 .titulos p{
+    font-family: sans-serif;
     display: flex;
     width: 300px;
     height: 270px;
     margin-left: 50px;
-
+    font-size: 15px;
 }
 
 .titulo1{
