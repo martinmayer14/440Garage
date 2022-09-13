@@ -10,7 +10,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 body{
     margin: 0%;
     background-color: white;
@@ -28,7 +27,7 @@ body{
     font-size: 30px;
 }
 .nav-link{
-    font-size: 22px;
+    font-size: 20px;
     margin: 0px;
     color:#202020;
     margin-left: 100px;
@@ -36,12 +35,14 @@ body{
 .navbar-nav a:hover{
     color: darkcyan;
 }
-
+.navbar-nav{
+    padding-left: 50px;
+}
 
 /*Imagen Fondo*/
 .background{
     width: 100%;
-    height: 516px;
+    height: 680px;
     background-image: url(./assent/imagenes/imagen.fondo2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -53,8 +54,8 @@ body{
     padding: 30px;
 }
 .title h1{
-    padding: 15PX;
-    font-size: 45PX;
+    padding: 10PX;
+    font-size: 80PX;
     font-family: 'Cormorant SC', serif;
 }
 
@@ -68,6 +69,7 @@ body{
     background: rgba(5, 7, 12, 0.5);
     padding: 20px;
     margin: 0%;
+    padding-top:156px;
 }
 
 .title_bg{
@@ -84,10 +86,9 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-
 .background2{
     width: 100%;
-    height: 400px;
+    height: 600px;
     background-image: url(./assent/imagenes/imagen.fondo3.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -95,10 +96,12 @@ body{
 }
 .actividades{
     color: aliceblue;
-    padding: 50px;
+    padding: 120px;
     background: rgba(5, 7, 12, 0.5);
 }
-
+.actividades h1{
+    font-size: 60px;
+}
 .actividades div{
     text-align: center;
     padding-bottom: 20px;
@@ -107,8 +110,9 @@ body{
     display: flex;
     max-width: 1450px;
     text-align: center;
-    height: 270px;
-    font-size: 20px;
+    height: 280px;
+    font-size: 30px;
+    padding-top: 40px;
 }
 
 .info1{
@@ -157,7 +161,6 @@ nav a{
     padding-right: 20px;
 }
 
-
 .fotoportada{
     display: flex;
     height: auto;
@@ -174,8 +177,6 @@ nav a{
     width: 50%;
 }
 
-
-
 .container_marks{
     position: relative;
     width:  auto;
@@ -186,6 +187,8 @@ nav a{
     flex-wrap: wrap;
     padding: 0 auto;
     background-color: #202020;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .container_marks img{
     width: 170px;
@@ -200,28 +203,18 @@ nav a{
     border-radius: 200px;
 }
 
-
-
-.productos_button{
-    
-    height: 60px;
-    padding: 5px;
-    text-align: center;
-}
-.button{
-    background-color: #202020;
-}
-.productos_button a :hover{
-    color:darkcyan;
-}
-
 .titulo_foto{
     padding: 5%;
     margin: 0%;
     text-align: center;
     border-bottom: 1px groove cadetblue;
 }
-
+.titulo_foto h1{
+    font-size: 50px;
+}
+.titulo_foto h1:hover{
+    color: orange;
+}
 .titulo_foto span{
     font-size: 20px;
 }
@@ -233,7 +226,7 @@ nav a{
     max-width: 1450px;
     margin: auto;
     padding: 20px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .titulos{
@@ -241,13 +234,16 @@ nav a{
     height: auto;
     text-align: center;
 }
+.titulos h2:hover{
+    color: orange;
+}
 .titulos p{
     font-family: sans-serif;
     display: flex;
     width: 300px;
     height: 270px;
     margin-left: 50px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .titulo1{
@@ -261,11 +257,7 @@ nav a{
     width: 400px;
 }
 
-
-
-
 /*FOOTER*/
-
 footer{
     margin: 0px;
     padding: 0px;
@@ -308,16 +300,13 @@ footer{
 .column2 h1{
     font-size: 22px;
 }
-.column2 p{
-    font-size: 14;
-}
 .row{
     margin-top: 20px;
     display: flex;
 }
 .row img{
-    width: 55px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
 }
 .row label{
     margin-top: 10px;
@@ -338,18 +327,17 @@ footer{
 }
 .row2 img{
     margin-left: 10px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 .row2 label{
     margin-left: 10px;
     margin-top: 10px;
-    max-width: 150px;
+    max-width: 350px;
 }
 
-
 /*MARCAS*/
-.background3{
+.background4{
     background-image: url(./assent/imagenes/imagen_fondo3.jpg);
     width: 100%;
     height: 1800px;
@@ -359,6 +347,12 @@ footer{
     background-size: cover;
     margin: 0%
 }
+.background-li{
+    color:white;
+}
+.background-li a:hover{
+    color: darkcyan;
+}
 
 .txt{
     display: flex;
@@ -367,24 +361,22 @@ footer{
     justify-content: center;
     background: rgba(5, 7, 12, 0.6);
     font-family: sans-serif;
-    font-size: 40px;
 }
 
 .txt h1{
-    font-size: 50px;
-    color:#202020;
+    font-size: 52px;
+    color: white;
     font-family: sans-serif;
 }
 .breadcrumb{
     margin-left: 700px;
     font-size: 25px;
-}
-.breadcrumb-item{
-    color: aliceblue;
+    color: white;
+    padding-top: 15px;
 }
 
 .nav1 a:hover{
-    color: aliceblue;
+    color: white;
 }
 
 .nav_link{
@@ -409,8 +401,8 @@ footer{
 }
 
 /*MARCAS*/
-
 .grid-container{
+    padding-top: 30px;
     display: grid;
     background-color: rgba(5, 7, 12, 0.5);
     grid-template-columns: 500px 500px 500px;
@@ -424,11 +416,35 @@ footer{
     border: 1px solid white;
 }
 .grid-container img{
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
+    padding-top: 10px;
+    transition: 0.5s;
+    object-fit: cover;
 }
-/*PRODUCTOS*/
+img:hover{
+    transform: scale(1.2);
+}
+.grid-container p{
+    padding-top: 34px;
+    font-size: 14px;
+}
+.grid-h1{
+    color: white;
+    list-style-type: none;
+}
 
+/*PRODUCTOS*/
+.background3{
+    background-image: url(./assent/imagenes/imagen_fondo3.jpg);
+    width: 100%;
+    height: 1800px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%
+}
 .txt_productos{
     display: flex;
     padding: 80px;
@@ -439,18 +455,179 @@ footer{
     font-size: 22px;
     color: #000;
 }
+.txtp{
+    display: flex;
+    padding: 60px;
+    text-align: center;
+    justify-content: center;
+    background: rgba(5, 7, 12, 0.6);
+    font-family: sans-serif;
+}
+
+.txtp h1{
+    font-size: 52px;
+    color: white;
+    font-family: sans-serif;
+}
+.breadcrumb{
+    margin-left: 700px;
+    font-size: 25px;
+    color: white;
+    padding-top: 15px;
+}
+
+.product-container{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px 500px 500px;
+    justify-content:space-between;
+}
+.product-container div{
+    background-color: rgba(5, 7, 12, 0.5);
+    color: aliceblue;
+    text-align: center;
+    border: 1px solid #202020;
+}
+.product-container img{
+    height: 300px;
+    width: 300px;
+    padding-top: 10px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.product-container p{
+    padding-top: 34px;
+    font-size: 20px;
+    width: 420px;
+    padding-left: 70px;
+}
+.product-container h1{
+    color: white;
+    list-style-type: none;
+    font-size: 30px;
+}
+.product-container span{
+    font-size: 20px;
+}
+
+/*ACTIVIDADES*/
+.background5{
+    background-image: url(./assent/imagenes/imagen_fondo3.jpg);
+    width: 100%;
+    height: 1930px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%
+}
+.act-container div :hover {
+    transform: translateY(-5px); 
+}
+.act-titulo h1{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom:0px;
+    padding-top: 30PX;
+    padding-bottom: 30PX;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    background: rgba(5, 7, 12, 0.5);
+}
+.txta{
+    color: aliceblue;
+    display: flex;
+    padding: 60px;
+    text-align: center;
+    justify-content: center;
+    background: rgba(5, 7, 12, 0.6);
+    font-family: sans-serif;
+}
+.txta h1{
+    font-size: 50px;
+}
+.breadcrumb2{
+    margin-left: 700px;
+    font-size: 25px;
+    color: white;
+    padding-top: 15px;
+}
+.act-container{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 350px 350px;
+    padding-left: 70px;
+    height: 620px;
+}
+.act-container iframe{
+    width: 320px;
+    height: 300px;
+}
+.act-container h3{
+    text-align: center;
+    background: rgba(5, 7, 12, 0.5);
+    font-size: 40px;
+    color:aliceblue;
+    margin: 0;
+    padding-top: 3px;
+}
+.act-container h3:hover{
+    color: orange;
+}
+
+.act-titulo2 h1{
+    color: aliceblue;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-top: 25PX;
+    padding-bottom: 25PX;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    background: rgba(5, 7, 12, 0.5);
+}
+
 /*CONTACTO*/
-
-
-.form label{
-    display: block;
+.background6{
+    background-image: url(./assent/imagenes/imagen_fondo3.jpg);
+    width: 100%;
+    height: 1420px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%
 }
-.icono__perfil img{
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-}
 
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-bottom: 200px;
+}
+legend{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+input{
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
 
 /**media queries SIEMPRE al final de todo mi estilo**/
 /**Siempre de mayor a menos las medidas**/
@@ -461,6 +638,9 @@ footer{
     header{
         flex-direction: column;
     }
+    .nav-link{
+        margin: 0;
+    }
 
     /*index*/
     .background{
@@ -468,14 +648,13 @@ footer{
         background-size:1000px;
         background-repeat: no-repeat;
         width: 576px;
-        height: 540px;
+        height: 776px;
     }
     .title h1{
         margin-bottom: -20px;
     }
     .title_bg{
-        flex-direction: column;
-        font-size: 14px;
+        font-size: 25px;
         margin: 0;
         padding: 0;
         margin-bottom: 30px;
@@ -493,31 +672,126 @@ footer{
         margin-left: 90px;
     }
     .background2{
-        height:400px;
+        height:560px;
     }
+    .actividades{
+        padding: 40px;
+        height: 700px;
+    }
+    .actividades h1{
+        font-size: 36px;
+    }
+    .infos{
+        display: block;
+        font-size: 20px;
+    }
+    .info1{
+        margin-bottom: 80px;
+        padding-right: 0px;
+    }
+    .info2{
+        margin-bottom: 80px;
+    }
+    .info3{
+        padding-left: 0px;
+    }
+
     /*MARCAS*/
-    .background3{
-        height: 3025px;
+    .background4{
+        height: 3220px;
     }
     .txt h1{
-        font-size: 100px;
+        font-size: 80px;
     }
     .breadcrumb{
         margin-left: -700px;
-    }
-    .nav_link{
-        font-size: 13px;
-        margin: -10px;
     }
     .grid-container{
         display: block;
         grid-template-columns: 50px 50px 50px;
         grid-template-rows: 50px 50px 50px;
+        margin-bottom: 300px;
     }
     .grid-container img{
         height: 200px;
-        width: 200px;
+        width: 220px;
     }
+
+    /*PRODUCTOS*/
+    .background3{
+        height: 4800px;
+    }
+    .txtp h1{
+        font-size: 56px;
+        padding-left: 50px;
+    }
+    .product-container{
+        display: block;
+    }
+    .product-container img{
+        width: 350px;
+        height: 300px;
+    }
+    .product-container h1{
+        font-size: 40px;
+    }
+    .product-container p{
+        padding-left: 150px;
+    }
+
+    /*ACTIVIDADES*/
+    .background5{
+        height: 6260px;
+    }
+    .txta{
+        display: flex;
+        padding: 60px;
+        text-align: center;
+        justify-content: center;
+        background: rgba(5, 7, 12, 0.6);
+        font-family: sans-serif;
+    }
+    .txta h1{
+        font-size: 60px;
+        color: aliceblue;
+    }
+    .breadcrumb a{
+        margin-left: -700px;
+    }
+    .act-container{
+        display: block;
+        height: auto;
+        width: auto;
+        align-items: center;
+        padding-left: -30px;
+    }
+    .act-container iframe{
+        width: 420px;
+    }
+    .act-container div{
+        width: 420px;
+        margin-bottom: 10px;
+    }
+    .act-titulo h1{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .act-titulo2 h1{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .act-container h3{
+        font-size: 22px;
+    }
+
+    /*CONTACTO*/
+    form{
+        width: 460px;
+    }
+    .background6{
+        height: 1000px;
+    }
+
 
     /*FOOTER*/
     footer{
@@ -529,6 +803,9 @@ footer{
     .bowl_body{
         display: block;
         justify-content: left;
+    }
+    .column2 a{
+        display: flex;
     }
     .column3{
         margin-left: 0px;

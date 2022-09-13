@@ -8,13 +8,14 @@
     <meta name="description" content="MÚSICA, INSTUMENTOS MUSICALES, MARCAS MUSICALES, BUENA CALIDAD EN MÚSICA">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../estilos.css">
     <title>Contacto - 440 Garage</title>
 </head>
 <body>
 
     <body>
-
         <header>
             <div class="container-fluid">
                 <!--barra de navegación-->
@@ -40,51 +41,85 @@
                 </div>
                 </nav>
             </div>
-
-
         </header>
-        <h1>Contacto</h1>
-        <!--fotoportada-->
 
+        <div class="background6">
+            <div class="txt"><h1 class="animate__animated animate__fadeInLeft">CONTACTO</h1>
+                <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html" class="background-li" style="text-decoration: none;">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                </ol>
+            </nav>
+        </div>
 
     <form action="procesar.php" name="contacto" method="" class="form">
         <fieldset>
             <legend>!Decinos hola¡</legend>
-            <label>Nombre:
-                <input type="text" name="nombre" placeholder="abcd" required>
+            <label>
+                <input type="text" name="nombre" placeholder="Nombre" required>
             </label>
-            <label>Apellido:
-                <input type="text" name="apellido" placeholder="abcd" required>
+            <label>
+                <input type="text" name="apellido" placeholder="Apellido" required>
             </label>
-            <label>Correo electronico:
+            <label>
                 <input type="email" name="email" placeholder="usuario@servidor.com" required>
             </label>
-            <label>Contraseña:
-                <input type="password" name="contraseña" placeholder="......." required>
+            <label>
+                <input type="password" name="contraseña" placeholder="Contraseña" required>
             </label>
-            <label>Telefono
-                <input type="tel" name="numero telefonico" placeholder="123456">
+            <label>
+                <input type="tel" name="número telefonico" placeholder="teléfono">
             </label>
         </fieldset>
-    </form>
         <label>
             <input type="submit" name="Enviar Formulario" required>
         </label>
         <label>
             <input type="reset" name="Borrar">
         </label>
-
-<section>
-    <article class="icono__perfil">
-        <ul>
-            <li>
-                <a href="https://wa.me/5492954627114"></a>
-                <img class="icono_perfil" src="../assent/imagenes/WhatsApp_logo-color-vertical.svg.webp" alt="whatsapp">
-            </li>
-        </ul>
-    </section>
-
-</section>
-
+    </form>
+    <footer>
+        <div class="bowl_footer_all">
+        <div class="bowl_body">
+            <div class="column1">
+                <h1>Informacíon de la Compañia</h1>
+                <p>Esta compañia se dedica a la distribucion de marcas 
+                de guitarras/bajos,instrumentos de viento, instrumentos
+                de cuerda, pianos y teclados, baterías,platillos, micrófonos,
+                audio y todo tipo de accesorios musicales.</p>
+            </div>
+            <div class="column2">
+                <h1>Redes Sociales</h1>
+                <div class="row">
+                    <a href="https://www.instagram.com/440garage/"><img src="../assent/imagenes/Instagram_logo_2016.svg.webp"></a>
+                </div>
+                <div class="row">
+                    <a href="https://www.facebook.com/440Garage/"><img src="../assent/imagenes/facebook.png"></a> 
+                </div>
+                <div class="row">
+                    <a href="https://twitter.com/440_Garage"><img src="../assent/imagenes/twiter.png"></a> 
+                </div>  
+            </div>
+            <div class="column3">
+                <h1>Información Contactos</h1>
+                <div class="row2">
+                    <img src="../assent/imagenes/casa.png" >
+                <label>404 GARAGE
+                    Argentina, La Pampa
+                    Av. San Martin</label>
+                </div>
+                <div class="row2">
+                <img src="../assent/imagenes/celular.png" >
+                <label>+(549) 2954 62-7114</label>
+                </div>
+                <div class="row2">
+                <img src="../assent/imagenes/mail.png" >
+                <label>tincho.mayer@gmail.com<label>
+                </div>
+            </div>
+            </div>
+    </div>
+    </footer>
 </body>
 </html>
